@@ -1,5 +1,13 @@
 # End-to-end testing on Spotify API with Cypress
 
+## The test structure is divided into:
+
+* ***cypress.config.js***: basic environment settings
+* ***package.json***: project dependencies and scripts to run the tests
+* ***Cypress:***
+  * ***Support***: commands to execute requests 
+  * ***e2e***: test scenarios
+
 ## Technology
 
 - Cypress 10.2.0
@@ -23,3 +31,4 @@ npx cypress install --force
 Run ```npm test``` to run all tests.
 
 Run ```npm run open``` to open the Cypress Test Runner to run tests in interactive mode.
+
